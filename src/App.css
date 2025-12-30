@@ -1,0 +1,253 @@
+@import "tailwindcss";
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.find{
+  font-family:cursive;
+  font-size: large;
+  color:white;
+}
+.decreasebutton{
+
+  padding:1px;
+  margin-left:70px;
+  font-size: x-small;
+  
+  }
+.increasebutton{
+ position:static;
+font-size: x-small;
+padding: 0;
+
+
+
+} 
+.qtybtn{
+
+  margin-left:30px;
+  padding: 1px;
+}
+.img{
+  position:static;
+  margin-left: 150px;
+}
+
+
+	
+
+
+
+/* Page Background */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  
+}
+
+/* Card */
+.login-card {
+  background: #181212;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+}
+
+/* Logo */
+.login-logo img {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 1rem;
+}
+  
+/* Titles */
+.login-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #d2d5dc;
+}
+
+.login-subtitle {
+  font-size: 0.95rem;
+  color: #eaecf0;
+  margin-top: 1rem;
+   margin-bottom: 1.5rem; 
+}
+
+/* Input Group */
+.input-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.input-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.1rem;
+  color: #9ca3af;
+  margin-bottom: 1rem;
+  
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.8rem 1rem 0.8rem 2.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background: #fff;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #3c25eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+/* Remember + Forgot */
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  color: #dee0e3;
+}
+
+.forgot-password {
+  background: none;
+  border: none;
+  color: #25eb74;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+/* Login Button */
+.login-btn {
+ width: 100%;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  background: #11cd5c;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background 0.3s;
+}
+
+.login-btn:hover {
+  background: #1e40af;
+}
+
+/* Footer */
+.signup-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.signup-btn {
+  background: none;
+  border: none;
+  color: #2563eb;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-btn:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .login-card {
+    padding: 1.5rem;
+    max-width: 90%;
+  }
+}
+/* .imagesty{
+ margin-left:120px;
+ 
+} */
+
+.imagesty {
+  height: 140px;       /* bigger MediBox logo */
+  width: 140px;
+  margin-bottom: 1.2rem;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;   /* centers the logo */
+  margin-right: auto;
+}
+
+.backbtn{
+    
+   position: fixed;
+   top: 260px;
+   left:790px;
+   
+
+}
